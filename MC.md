@@ -38,6 +38,17 @@
    ![alt text](image-12.png)
    - ARM Processor : controlles the embedded device , it compirses of a core(the execution engine that processes instructions and data) and the surrounding component s that communicate with the bus 
    - Controllers: important functional blocks they are Interrupt and Memory controllers
+   - Periperals : provide the i/o capability 
+   - Bus : used for communication between different pars of the device.
 
 4. Difference between RISC and CISC
    ![alt text](image-11.png)
+
+5. Explain in detail about CPSR 
+   CPSR is used by ARM core to monitor and control the internal operations 
+   - It is a dedicated 32 bit register which resides in the register file .
+   ![alt text](image-13.png)
+   - It is divided into four field  each of 8 bits wide : flags, status , contol and extension
+   Extension and status field : reserved for future use.
+   Control field : contains the processor mode, state and interrupt mask bits
+   Flags field: contains the condition flags.
