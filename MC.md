@@ -5,6 +5,7 @@
       - Microprocessors require **external components** such as memory (ROM, RAM), input/output (I/O) interfaces, and peripherals to function.
       - They are designed for applications that require **intensive processing power** and flexibility.
 
+
    2. **Microcontrollers (µC):**
       - A microcontroller integrates several components onto a **single chip**:
       - **CPU**
@@ -14,6 +15,7 @@
       - Microcontrollers are like **mini-computers** with everything needed for a specific task on a single chip.
       - They are commonly used in **embedded systems**, such as home appliances, automotive control systems, and industrial automation.
       - Microcontrollers are optimized for **specific tasks** and do not require complex operating systems or external components.
+      ![alt text](image-14.png)
 
 2. Explain RISC philosophy with 4 major rules.
    - RISC (Reduced Instruction Set Computer ) it helps in delivering simple but powerful instructions  that execute withing a single cycle at high clock speed.
