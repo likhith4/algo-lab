@@ -1,5 +1,6 @@
 #define INF 999
 #define MAX 100
+#include<stdio.h>
 int p[MAX], c[MAX][MAX], t[MAX][2];
 int find(int v)
 {
