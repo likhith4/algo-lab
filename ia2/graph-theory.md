@@ -28,7 +28,7 @@ A labeled tree is definde as a tree in which each vertex is assigned a unique id
   2   3
 ```
 ### Unlabeled Trees:
-An unlabeled tree, in contrast is a tree where the vertices don't have unique identifiers. The focus is on the structure of the tree rather than the specific identities of the vertices. In this coase , two trees are considererd the same if they can be transformed into one another  by renaming the vertices.
+An unlabeled tree, in contrast is a tree where the vertices don't have unique identifiers. The focus is on the structure of the tree rather than the specific identities of the vertices. In this case , two trees are considererd the same if they can be transformed into one another  by renaming the vertices.
 #### Properties of Unlabeled trees:
 1. No unique identifiers
 2. Counting unlabeled trees: the number of distinct unlabeled trees with n vertices can be more complex to determine and is ofteorn given by the nth catlan number .
@@ -57,7 +57,7 @@ B---C---D
 ```
 ### Finding the Minimum Spanning Tree
 1. Sort all the  edges in increasing order of their weights.
-2. Pick the smallest edge. fi it does't form a cycle with the edes already included in the MST, add it to the MST.
+2. Pick the smallest edge. if it does't form a cycle with the edge already included in the MST, add it to the MST.
 3. Repeat until n-1 edges in the MST
 
 ### Step-by-Step Process
