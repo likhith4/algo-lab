@@ -4,7 +4,7 @@
 	It is only applicable to directed acyclic graphs (DAGs)because a graph with a cycle cannot have a topological ordering.
 */
 #include<stdio.h>
-#include<conio.h>
+
 int temp[10],k=0;
 /*Global variables:
 	- temp: an array to store the topological ordering of the vertices.
@@ -64,7 +64,7 @@ void main()
 		for(i=1;i<=k;i++)
 			printf("%d",temp[i]);
 
-	getch();
+	getchar();
 }
 /*
 - The user is prompted to enter the number of vertices 'n'.

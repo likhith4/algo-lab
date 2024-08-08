@@ -81,7 +81,7 @@ void main()
 	scanf("%d",&s);
 	res=prim(c,n,s);
 	printf("\nCost=%d",res);
-	getch();
+	getchar();
 }
 /*
 - The main function prompts the user for the number of vertices 'n'.
