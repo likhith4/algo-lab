@@ -1,7 +1,7 @@
 //Design and implement C/C++ Program to solve All-Pairs Shortest Paths problem using Floyd's algorithm
 /*The Floyd-Warshall algorithm solves the all-pairs shortest path problem by iteratively updating a distance matrix. It considers each vertex as a potential intermediate vertex in the shortest path between two other vertices. The algorithm compares the direct path between two vertices with the path that goes through the intermediate vertex and updates the distance matrix accordingly.*/
 #include<stdio.h>
-#include<conio.h>
+
 #define INF 999
 /*INF: A constant representing an infinite cost used for comparison when searching for mminimum path.
 The program includes the standard I/O library for basic I/O and conio.h library for console I/O functions.*/
@@ -44,7 +44,7 @@ void main()
             printf("%d ",a[i][j]);
         printf("\n");
     }
-    getch();
+    getchar();
 }
 /*
 - The main  function prompts the user for the number of vertices 'n'.
