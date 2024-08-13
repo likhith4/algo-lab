@@ -1,17 +1,17 @@
-DBMS:
+DBMS: these assignments are already done and dusted
 	Assignment 1: DOS:25th June 2024
 1.Explain a simplified database system environment with neat diagram.  -done
 2.Explain characteristics of database approach
 3.Differentiate between program data independence and program operation
 independence
 4. Explain data model with example.
-5. Explain three schema architecture and data independence 
+5. Explain three schema architecture and data independence
 6. Explain the characterstics of relations.
 7. Differentiate between integrity and referential integrity
 ---------------------------------------------------------------------------------|
 	Assignment 2: DOS: 1st July 2024
-1. Explain informal design guidelines for relation schema with examples 
-2. Explain functional dependencies with examples 
+1. Explain informal design guidelines for relation schema with examples
+2. Explain functional dependencies with examples
 3. Define normalisation of relations and explain first normal form and second
 normal form
 4. Explain transitive dependency and mulitvalue dependency
@@ -22,7 +22,7 @@ normal form
 
 MICROCONTROLLERS: DOS: 9th July 2024
 	Assignment 1: DOS:
-1. Differentiate between  Microprocessors and Microcontrollers 
+1. Differentiate between  Microprocessors and Microcontrollers
 2. Explain RISC philosophy with four major rules.
 3. Explain the architecture of ARM embedded device with the help of neat
 diagram
